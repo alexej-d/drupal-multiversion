@@ -38,7 +38,7 @@ class RouteProvider extends CoreRouteProvider {
   public function getRouteCollectionForRequest(Request $request) {
     // Cache both the system path as well as route parameters and matching
     // routes.
-    $workspace_id = $this->workspaceManager->getActiveWorkspace()->id();
+    $workspace_id = $this->workspaceManager->getActiveWorkspaceId();
     $cid = 'route:' . "workspace$workspace_id:" . $request->getPathInfo() . ':' . $request->getQueryString();
     if ($cached = $this->cache->get($cid)) {
       $this->currentPath->setPath($cached->data['path'], $request);
