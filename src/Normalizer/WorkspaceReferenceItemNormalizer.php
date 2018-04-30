@@ -2,8 +2,6 @@
 
 namespace Drupal\multiversion\Normalizer;
 
-use Drupal\serialization\Normalizer\FieldItemNormalizer;
-
 /**
  * Returns an empty value for the workspace reference field.
  */
