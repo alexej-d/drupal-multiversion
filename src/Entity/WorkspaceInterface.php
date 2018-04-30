@@ -3,11 +3,8 @@
 namespace Drupal\multiversion\Entity;
 
 use Drupal\Core\Entity\ContentEntityInterface;
-use Drupal\Core\Entity\EntityChangedInterface;
-use Drupal\Core\Entity\EntityPublishedInterface;
-use Drupal\user\EntityOwnerInterface;
 
-interface WorkspaceInterface extends ContentEntityInterface, EntityChangedInterface, EntityOwnerInterface, EntityPublishedInterface {
+interface WorkspaceInterface extends ContentEntityInterface {
 
   /**
    * Returns the last sequence ID in the workspace's sequence index.
