@@ -4,8 +4,8 @@ namespace Drupal\multiversion\Entity;
 
 use Drupal\Core\Entity\Entity;
 use Drupal\Core\Entity\ContentEntityBase;
-use Drupal\Core\Entity\EntityChangedTrait;
-use Drupal\Core\Entity\EntityPublishedTrait;
+use Drupal\multiversion\Entity\EntityChangedTrait;
+use Drupal\multiversion\Entity\EntityPublishedTrait;
 use Drupal\Core\Entity\EntityStorageInterface;
 use Drupal\Core\Entity\EntityTypeInterface;
 use Drupal\Core\Field\BaseFieldDefinition;
