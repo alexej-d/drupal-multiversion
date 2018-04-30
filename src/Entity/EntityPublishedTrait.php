@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\Core\Entity;
+namespace Drupal\multiversion\Entity;
 
 use Drupal\Core\Entity\Exception\UnsupportedEntityTypeDefinitionException;
 use Drupal\Core\Field\BaseFieldDefinition;
